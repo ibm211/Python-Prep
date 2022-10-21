@@ -1,57 +1,52 @@
 #WORK
 
-#1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
+print("\n  \n")
 
+print("\n1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla\n") 
+variable = 15
+print(variable)
 
+print("\n2) Imprimir el tipo de dato de la constante 8.5\n")
 
-2) Imprimir el tipo de dato de la constante 8.5
+a = type(8.5)
+print(a)
 
-3) Imprimir el tipo de dato de la variable creada en el punto 1
+print("\n3) Imprimir el tipo de dato de la variable creada en el punto 1\n")
 
-4) Crear una variable que contenga tu nombre
+print(type(variable))
 
-5) Crear una variable que contenga un número complejo
+print("\n 4) Crear una variable que contenga tu nombre \n")
 
-6) Mostrar el tipo de dato de la variable crada en el punto 5
+nombre = "Ivan Ibañez"
 
-7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
+print("\n 5) Crear una variable que contenga un número complejo \n")
 
-8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
+num1 = 5 + 6j
 
-9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 9
+print("\n 6) Mostrar el tipo de dato de la variable crada en el punto 5 \n")
 
-10) Asignar a una variable, la suma de un número entero y otro decimal
+print(type(num1))
 
-11) Realizar una operación de suma de números complejos
+print("\n 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales \n")
 
-12) Realizar una operación de suma de un número real y otro complejo
+import math
 
-13) Realizar una operación de multiplicación
+var = round(math.pi,4)
+print(var)
 
-14) Mostrar el resultado de elevar 2 a la octava potencia
+print("\n 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo? \n")
 
-15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
+x='True'
+y=True
+#error
 
-16) De la división anterior solamente mostrar la parte entera
+print("\n >> mover bits a la izq << mover bits a la der \n")
 
-17) De la división de 27 entre 4 mostrar solamente el resto
-
-18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
-
-19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
-
-20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
-
-21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
-
-22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
-
-23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido
-
-24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
-
-25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
-
-26) Realizar una operación válida entre valores de tipo entero y string
-
-# 
+print("\n por ejemplo 1<<2 es igual a 4  \n")
+print("\n 1 es 0b000001 y si se mueve 2 espacios es 0b0000100 lo cual es 4 \n")
+print("\n pero si a 4 se le mueve 1 bit a la der 4>>1 es igual a 2 \n")
+print("1<<2")
+print(1<<2)
+print("4>>1")
+print(4>>1)
+print("\n  \n")
