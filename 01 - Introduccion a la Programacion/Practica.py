@@ -6,6 +6,5 @@
 
 print('Hola Mundo!')
 x=4**5
-y=1%3
+y=100%13
 print(x)
-print(y)
